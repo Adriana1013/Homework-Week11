@@ -30,10 +30,7 @@ const uuid = require('./helpers/uuid');
 const notes = require('./db/db.json');
 const fs = require('fs');
 
-
-
-// process.env.PORT  || 3001
-const PORT = 3002;
+const PORT = 3001;
 const app = express();
 
 // middleware
