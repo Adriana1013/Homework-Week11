@@ -106,6 +106,10 @@ const response = {
 // })
 
 
-app.listen(PORT, () => 
-console.log(`App listening at http://localhost:${PORT}`)
-);
+// app.listen(PORT, () => 
+// console.log(`App listening at http://localhost:${PORT}`)
+// );
+
+app.listen(process.env.PORT || 3001, '0.0.0.0', () => {
+  console.log("Server is running.");
+});
